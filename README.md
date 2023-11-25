@@ -23,11 +23,19 @@
 - [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)
 - [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
 - [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)
+- [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
 ### Sliding Window/Two Pointer
 
 - [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 - [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)
+- [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+- [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+- [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
+
+### Intervals
+
+- [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 
 ### Heap/Priority Queues
 
