@@ -24,6 +24,7 @@
 - [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
 - [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)
 - [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+- [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
 ### Sliding Window/Two Pointer
 
@@ -43,6 +44,16 @@
 - [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
 - [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 - [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+
+## Linked Lists/Deques
+
+- [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+- [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+- [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+- [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+- [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
 
 ## Graphs
 
