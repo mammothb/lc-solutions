@@ -25,6 +25,7 @@
 - [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)
 - [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 - [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+- [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 
 ### Sliding Window/Two Pointer
 
@@ -33,10 +34,12 @@
 - [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
+- [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 
 ### Intervals
 
 - [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 
 ### Heap/Priority Queues
 
@@ -54,6 +57,13 @@
 - [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 - [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
+- [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
+
+## Trees
+
+- [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+- [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+- [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 
 ## Graphs
 
