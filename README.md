@@ -26,6 +26,7 @@
 - [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 - [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+- [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)
 
 ### Sliding Window/Two Pointer
 
@@ -47,6 +48,7 @@
 - [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
 - [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 - [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+- [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 
 ## Linked Lists/Deques
 
@@ -58,14 +60,17 @@
 - [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
 - [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
+- [Rotate List](https://leetcode.com/problems/rotate-list/)
 
 ## Trees
 
 - [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 - [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 - [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+- [Merge Two Binary Tree](https://leetcode.com/problems/merge-two-binary-trees/)
 
 ## Graphs
 
+- [Flood Fill](https://leetcode.com/problems/flood-fill/)
 - [Course Schedule](https://leetcode.com/problems/course-schedule/)
 - [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
