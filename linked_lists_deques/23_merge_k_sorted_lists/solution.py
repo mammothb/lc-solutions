@@ -24,6 +24,19 @@ ListNode.__str__ = print_list
 
 
 class Solution:
+    def merge_k_lists_naive(
+        self, lists: List[Optional[ListNode]]
+    ) -> Optional[ListNode]:
+        root = None
+        h = []
+        for linked_list in lists:
+            while linked_list is not None:
+                heapq.heappush(h, -linked_list.val)
+                linked_list = linked_list.next
+        while h:
+            root = ListNode(-heapq.heappop(h), root)
+        return root
+
     def merge_k_lists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
         h = [(node.val, i) for i, node in enumerate(lists) if node is not None]
         heapq.heapify(h)

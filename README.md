@@ -24,9 +24,10 @@
 - [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)
 - [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)
 - [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
-- [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 - [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)
+- [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)
+  - [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 
 ### Sliding Window/Two Pointer
 
@@ -41,6 +42,7 @@
 
 - [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 - [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
+- [Insert Interval](https://leetcode.com/problems/insert-interval/)
 
 ### Heap/Priority Queues
 
@@ -61,6 +63,7 @@
 - [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
 - [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
 - [Rotate List](https://leetcode.com/problems/rotate-list/)
+- [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 
 ## Trees
 
@@ -68,6 +71,10 @@
 - [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 - [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 - [Merge Two Binary Tree](https://leetcode.com/problems/merge-two-binary-trees/)
+- [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)
+- [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
+- [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
+- [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
 ## Graphs
 
