@@ -28,6 +28,7 @@
 - [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/)
 - [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)
   - [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
+- [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 
 ### Sliding Window/Two Pointer
 
@@ -75,9 +76,13 @@
 - [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
 - [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
 - [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+- [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+- [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
 
 ## Graphs
 
 - [Flood Fill](https://leetcode.com/problems/flood-fill/)
+- [Accounts Merge](https://leetcode.com/problems/accounts-merge/)
 - [Course Schedule](https://leetcode.com/problems/course-schedule/)
 - [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
