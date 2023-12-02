@@ -85,6 +85,8 @@
 - [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 - [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
+- [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
+- [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 
 ## Graphs
 
@@ -93,7 +95,18 @@
 - [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 - [Course Schedule](https://leetcode.com/problems/course-schedule/)
 - [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+- [Graph valid tree](https://leetcode.com/problems/graph-valid-tree/)
+
+## Dynamic Programming
+
+- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 
 ## Design and Implementation
 
 - [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+- [Min Stack](https://leetcode.com/problems/min-stack/)
+- [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
+
+## Greedy
+
+- [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
