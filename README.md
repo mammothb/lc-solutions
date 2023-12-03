@@ -87,6 +87,8 @@
 - [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
 - [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
 - [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+- [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+- [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)
 
 ## Graphs
 
@@ -96,17 +98,21 @@
 - [Course Schedule](https://leetcode.com/problems/course-schedule/)
 - [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
 - [Graph valid tree](https://leetcode.com/problems/graph-valid-tree/)
+- [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 
 ## Dynamic Programming
 
 - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [Jump Game](https://leetcode.com/problems/jump-game/)
 
 ## Design and Implementation
 
 - [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 - [Min Stack](https://leetcode.com/problems/min-stack/)
 - [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
+- [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)
 
 ## Greedy
 
 - [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
+- [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)
