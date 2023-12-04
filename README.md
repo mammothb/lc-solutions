@@ -89,6 +89,7 @@
 - [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
 - [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 - [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)
+- [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)
 
 ## Graphs
 
@@ -99,11 +100,17 @@
 - [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
 - [Graph valid tree](https://leetcode.com/problems/graph-valid-tree/)
 - [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
+- [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+
+## Recursion/Backtracking
+
+- [Combination Sum](https://leetcode.com/problems/combination-sum/)
 
 ## Dynamic Programming
 
 - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 - [Jump Game](https://leetcode.com/problems/jump-game/)
+- [Decode Ways](https://leetcode.com/problems/decode-ways/)
 
 ## Design and Implementation
 
@@ -116,3 +123,4 @@
 
 - [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 - [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)
+- [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)
