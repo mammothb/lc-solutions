@@ -90,6 +90,7 @@
 - [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 - [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)
 - [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)
+- [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 
 ## Graphs
 
@@ -101,16 +102,19 @@
 - [Graph valid tree](https://leetcode.com/problems/graph-valid-tree/)
 - [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 - [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+- [Word Ladder](https://leetcode.com/problems/word-ladder/)
 
 ## Recursion/Backtracking
 
 - [Combination Sum](https://leetcode.com/problems/combination-sum/)
+- [Permutations](https://leetcode.com/problems/permutations/)
 
 ## Dynamic Programming
 
 - [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 - [Jump Game](https://leetcode.com/problems/jump-game/)
 - [Decode Ways](https://leetcode.com/problems/decode-ways/)
+- [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
 
 ## Design and Implementation
 
@@ -124,3 +128,4 @@
 - [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
 - [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)
 - [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)
+- Bulb Switcher IV

@@ -2,7 +2,7 @@ from typing import List, Optional
 
 
 class TreeNode:
-    def __init__(self, val):
+    def __init__(self, val=0):
         self.left: Optional["TreeNode"] = None
         self.right: Optional["TreeNode"] = None
         self.val = val
@@ -147,8 +147,9 @@ def postorder_traversal_iterative(root: Optional[TreeNode]) -> List[int]:
     return result
 
 
-#  root = create_tree_from_list([0, 1, 2, 3, None, None, 6])
-root = create_tree_from_list(list(range(1, 8)))
-print_tree(root)
-print(postorder_traversal_recursive(root))
-print(postorder_traversal_iterative(root))
+if __name__ == "__main__":
+    #  root = create_tree_from_list([0, 1, 2, 3, None, None, 6])
+    root = create_tree_from_list(list(range(1, 8)))
+    print_tree(root)
+    print(postorder_traversal_recursive(root))
+    print(postorder_traversal_iterative(root))

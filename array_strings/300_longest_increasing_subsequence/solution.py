@@ -1,3 +1,4 @@
+import sys
 from typing import List
 
 import pytest
@@ -12,6 +13,19 @@ class Solution:
                 if nums[j] < nums[i]:
                     result[i] = max(result[i], result[j] + 1)
         return max(result)
+
+    def length_of_lis_brute_force(self, nums: List[int]) -> int:
+        def solve(nums, start, prev):
+            if start >= len(nums):
+                return 0
+            skip = solve(nums, start + 1, prev)
+            if nums[start] > prev:
+                no_skip = 1 + solve(nums, start + 1, nums[start])
+            else:
+                no_skip = 0
+            return max(skip, no_skip)
+
+        return solve(nums, 0, -sys.maxsize - 1)
 
     def length_of_lis_binary_search(self, nums: List[int]) -> int:
         n = len(nums)
