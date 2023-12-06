@@ -29,6 +29,8 @@
 - [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)
   - [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 - [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
+- [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)
+- [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/)
 
 ### Sliding Window/Two Pointer
 
@@ -103,11 +105,14 @@
 - [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 - [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
 - [Word Ladder](https://leetcode.com/problems/word-ladder/)
+- [Word Search](https://leetcode.com/problems/word-search/)
 
 ## Recursion/Backtracking
 
 - [Combination Sum](https://leetcode.com/problems/combination-sum/)
 - [Permutations](https://leetcode.com/problems/permutations/)
+- [Permutations II](https://leetcode.com/problems/permutations-ii/)
+- [Subsets](https://leetcode.com/problems/subsets/)
 
 ## Dynamic Programming
 
@@ -115,6 +120,7 @@
 - [Jump Game](https://leetcode.com/problems/jump-game/)
 - [Decode Ways](https://leetcode.com/problems/decode-ways/)
 - [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
+- [Unique Paths](https://leetcode.com/problems/unique-paths/)
 
 ## Design and Implementation
 
@@ -122,6 +128,7 @@
 - [Min Stack](https://leetcode.com/problems/min-stack/)
 - [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 - [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)
+- [LRU Cache](https://leetcode.com/problems/lru-cache/)
 
 ## Greedy
 
