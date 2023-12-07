@@ -31,6 +31,11 @@
 - [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 - [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)
 - [Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/)
+- [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
+- [Two Sum](https://leetcode.com/problems/two-sum/)
+- [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+- [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 
 ### Sliding Window/Two Pointer
 
@@ -121,6 +126,8 @@
 - [Decode Ways](https://leetcode.com/problems/decode-ways/)
 - [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
 - [Unique Paths](https://leetcode.com/problems/unique-paths/)
+- [Interleaving String](https://leetcode.com/problems/interleaving-string/)
+- [Edit Distance](https://leetcode.com/problems/edit-distance/)
 
 ## Design and Implementation
 
