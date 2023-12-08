@@ -36,6 +36,8 @@
 - [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+- [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+- [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
 ### Sliding Window/Two Pointer
 
@@ -60,6 +62,12 @@
 - [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 - [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 
+## Hash Table
+
+- [Ransom Note](https://leetcode.com/problems/ransom-note/)
+- [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
+- [All O\`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)
+
 ## Linked Lists/Deques
 
 - [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
@@ -72,6 +80,8 @@
 - [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)
 - [Rotate List](https://leetcode.com/problems/rotate-list/)
 - [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+- [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- Encode and Decode Strings
 
 ## Trees
 
@@ -98,6 +108,8 @@
 - [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)
 - [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)
 - [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
+- [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
+- [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
 
 ## Graphs
 
@@ -136,6 +148,7 @@
 - [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)
 - [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)
 - [LRU Cache](https://leetcode.com/problems/lru-cache/)
+- [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
 
 ## Greedy
 
