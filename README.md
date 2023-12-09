@@ -38,6 +38,7 @@
 - [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+- Encode and Decode Strings
 
 ### Sliding Window/Two Pointer
 
@@ -81,7 +82,6 @@
 - [Rotate List](https://leetcode.com/problems/rotate-list/)
 - [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
-- Encode and Decode Strings
 
 ## Trees
 
@@ -130,6 +130,13 @@
 - [Permutations](https://leetcode.com/problems/permutations/)
 - [Permutations II](https://leetcode.com/problems/permutations-ii/)
 - [Subsets](https://leetcode.com/problems/subsets/)
+- [Subsets II](https://leetcode.com/problems/subsets-ii/)
+- [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)
+- [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+- [Combinations](https://leetcode.com/problems/combinations/)
+- [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
+- Strobogrammatic Number II
 
 ## Dynamic Programming
 
@@ -140,6 +147,8 @@
 - [Unique Paths](https://leetcode.com/problems/unique-paths/)
 - [Interleaving String](https://leetcode.com/problems/interleaving-string/)
 - [Edit Distance](https://leetcode.com/problems/edit-distance/)
+- [Jump Game II](https://leetcode.com/problems/jump-game-ii/)
+- [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
 
 ## Design and Implementation
 

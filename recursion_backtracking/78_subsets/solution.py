@@ -17,3 +17,14 @@ class Solution:
                 solve(nums, n, i, length - 1, result, [nums[i]])
 
         return result
+
+    def subsets2(self, nums: List[int]) -> List[List[int]]:
+        def solve(start, n, nums, curr, result):
+            for i in range(start, n):
+                new_curr = curr + [nums[i]]
+                result.append(new_curr)
+                solve(i + 1, n, nums, new_curr, result)
+
+        result = [[]]
+        solve(0, len(nums), nums, [], result)
+        return result
