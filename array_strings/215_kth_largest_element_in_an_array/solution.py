@@ -41,6 +41,36 @@ class Solution:
             else:
                 r = new_pivot_index - 1
 
+    def findKthLargest_quick_select_desc(self, nums: List[int], k: int) -> int:
+        def quick_select(nums, l, r, k):
+            if l == r:
+                return nums[l]
+
+            pivot = random.randint(l, r)
+            pivot = partition(nums, l, r, pivot)
+            if pivot == k - 1:
+                return nums[pivot]
+            if k - 1 < pivot:
+                r = pivot - 1
+            else:
+                l = pivot + 1
+            return quick_select(nums, l, r, k)
+
+        def partition(nums, l, r, pivot):
+            nums[pivot], nums[r] = nums[r], nums[pivot]
+            idx = l
+            for i in range(l, r):
+                if nums[i] >= nums[r]:
+                    nums[idx], nums[i] = nums[i], nums[idx]
+                    idx += 1
+            nums[idx], nums[r] = nums[r], nums[idx]
+            return idx
+
+        return quick_select(nums, 0, len(nums) - 1, k)
+
+
+print(Solution().findKthLargest_qs([3, 2, 1, 5, 6, 4], 2))
+
 
 @pytest.fixture
 def solution():

@@ -69,6 +69,15 @@
 - [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 - [All O\`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)
 
+## Sorting and Searching
+
+- [H-Index](https://leetcode.com/problems/h-index/)
+- [Binary Search](https://leetcode.com/problems/binary-search/)
+- [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+- [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+- [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+- [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+
 ## Linked Lists/Deques
 
 - [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
