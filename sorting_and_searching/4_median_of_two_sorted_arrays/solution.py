@@ -78,6 +78,63 @@ class Solution:
             else:
                 lo = mid1 + 1
 
+    def findMedianSortedArrays_binary_search_pointers(
+        self, nums1: List[int], nums2: List[int]
+    ) -> float:
+        def get_kth(nums1, start1, stop1, nums2, start2, stop2, k):
+            if start1 > stop1:
+                return nums2[start2 + k - 1]
+            if start2 > stop2:
+                return nums1[start1 + k - 1]
+            if k == 1:
+                return min(nums1[start1], nums2[start2])
+            mid1 = (start1 + stop1) // 2
+            mid2 = (start2 + stop2) // 2
+            # Looking at the left (front) partition
+            if mid1 - start1 + mid2 - start2 < k - 1:
+                # nums1[start1:mid1] contains the smaller numbers, can
+                # safely toss them out, and decrease k value
+                if nums1[mid1] < nums2[mid2]:
+                    return get_kth(
+                        nums1,
+                        mid1 + 1,
+                        stop1,
+                        nums2,
+                        start2,
+                        stop2,
+                        k - (mid1 + 1 - start1),
+                    )
+                return get_kth(
+                    nums1,
+                    start1,
+                    stop1,
+                    nums2,
+                    mid2 + 1,
+                    stop2,
+                    k - (mid2 + 1 - start2),
+                )
+                # Looking at the back partition
+            else:
+                # nums2[mid2:] is larger and can be safely tossed, k remain the
+                # same since it counts from the front and we threw out the back.
+                if nums1[mid1] < nums2[mid2]:
+                    return get_kth(nums1, start1, stop1, nums2, start2, mid2 - 1, k)
+                return get_kth(nums1, start1, mid1 - 1, nums2, start2, stop2, k)
+
+        len1 = len(nums1)
+        len2 = len(nums2)
+        n = len1 + len2
+
+        l = (n + 1) // 2
+        r = (n + 2) // 2
+        if n % 2 == 1:
+            return get_kth(nums1, 0, len1 - 1, nums2, 0, len2 - 1, l)
+
+        return (
+            get_kth(nums1, 0, len1 - 1, nums2, 0, len2 - 1, l)
+            + get_kth(nums1, 0, len1 - 1, nums2, 0, len2 - 1, r)
+        ) / 2
+
 
 print(
     Solution().findMedianSortedArrays_binary_search_pointers(
