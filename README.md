@@ -78,6 +78,13 @@
 - [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
+## Matrix
+
+- [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+- [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
+- [Rotate Image](https://leetcode.com/problems/rotate-image/)
+- [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+
 ## Linked Lists/Deques
 
 - [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
@@ -91,6 +98,8 @@
 - [Rotate List](https://leetcode.com/problems/rotate-list/)
 - [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+- [Reorder List](https://leetcode.com/problems/reorder-list/)
 
 ## Trees
 
@@ -174,3 +183,5 @@
 - [Minimum Cost to Move Chips to The Same Position](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/)
 - [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)
 - Bulb Switcher IV
+- [Candy](https://leetcode.com/problems/candy/)
+- [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)
