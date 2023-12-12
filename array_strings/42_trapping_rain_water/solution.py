@@ -96,6 +96,25 @@ class Solution:
                     )
         return result
 
+    def trap_stack_2(self, height: List[int]) -> int:
+        n = len(height)
+        stack = []
+
+        result = 0
+        for i in range(n):
+            if not stack or height[i] < height[stack[-1]]:
+                stack.append(i)
+            else:
+                while stack and height[i] >= height[stack[-1]]:
+                    center_height = height[stack.pop()]
+                    if not stack:
+                        continue
+                    width = i - stack[-1] - 1
+                    min_wall_height = min(height[i], height[stack[-1]])
+                    result += (min_wall_height - center_height) * width
+                stack.append(i)
+        return result
+
 
 @pytest.mark.parametrize(
     "case,expected",

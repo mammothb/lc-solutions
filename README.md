@@ -39,6 +39,12 @@
 - [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 - Encode and Decode Strings
+- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+- [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)
+- [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
+- [Basic Calculator](https://leetcode.com/problems/basic-calculator/)
+- [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
+- Basic Calculator III
 
 ### Sliding Window/Two Pointer
 
@@ -167,6 +173,7 @@
 - [Edit Distance](https://leetcode.com/problems/edit-distance/)
 - [Jump Game II](https://leetcode.com/problems/jump-game-ii/)
 - [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
+- [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
 
 ## Design and Implementation
 
@@ -176,6 +183,9 @@
 - [Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)
 - [LRU Cache](https://leetcode.com/problems/lru-cache/)
 - [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
+- [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
+- Design Hit Counter
 
 ## Greedy
 
