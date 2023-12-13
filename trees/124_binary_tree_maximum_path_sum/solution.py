@@ -29,3 +29,18 @@ class Solution:
 
         solve(root)
         return self.res
+
+    def maxPathSum2(self, root: Optional[TreeNode]) -> int:
+        def solve(node, res):
+            if node is None:
+                return 0
+            left = solve(node.left, res)
+            right = solve(node.right, res)
+            max_single = max(node.val, node.val + max(left, right))
+            max_path = max(max_single, node.val + left + right)
+            res[0] = max(res[0], max_path)
+            return max_single
+
+        res = [float("-inf")]
+        solve(root, res)
+        return res[0]

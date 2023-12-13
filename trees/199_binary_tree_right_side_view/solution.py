@@ -53,6 +53,7 @@ class Solution:
             return []
         result = []
         stack = [(root, 0)]
+        # Modified preorder traversal
         while stack:
             node, node_level = stack.pop()
             # Only need to add value for new level since we're traversing from

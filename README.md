@@ -45,6 +45,7 @@
 - [Basic Calculator](https://leetcode.com/problems/basic-calculator/)
 - [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
 - Basic Calculator III
+- [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 
 ### Sliding Window/Two Pointer
 
@@ -134,6 +135,14 @@
 - [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 - [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)
 - [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
+- [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)
+- [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
+- [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)
+- [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)
+- [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+- [Same Tree](https://leetcode.com/problems/same-tree/)
+- [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
+- [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 
 ## Graphs
 
