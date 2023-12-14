@@ -46,6 +46,43 @@ class Solution:
         result.reverse()
         return result
 
+    def findOrder_dfs_2(
+        self, numCourses: int, prerequisites: List[List[int]]
+    ) -> List[int]:
+        def is_acyclic(graph, checked, visit, course, result):
+            if visit[course]:
+                return False
+            if checked[course]:
+                return True
+            visit[course] = True
+            for next_course in graph[course]:
+                if checked[next_course]:
+                    continue
+                if visit[next_course] or not is_acyclic(
+                    graph, checked, visit, next_course, result
+                ):
+                    return False
+            visit[course] = False
+            checked[course] = True
+            result.append(course)
+            return True
+
+        graph = collections.defaultdict(list)
+        # Construct graph with course and its prerequisites as the
+        # adjacency list. So when we do DFS later, the first course added
+        # will be one without any other prerequisites.
+        for course, prereq in prerequisites:
+            graph[course].append(prereq)
+        checked = [False] * numCourses
+        visit = [False] * numCourses
+        result = []
+        for course in range(numCourses):
+            if checked[course]:
+                continue
+            if not is_acyclic(graph, checked, visit, course, result):
+                return []
+        return result
+
     def is_acyclic(self, graph, visit, checked, result, prereq):
         if visit[prereq]:
             return False

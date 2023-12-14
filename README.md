@@ -151,11 +151,18 @@
 - [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 - [Course Schedule](https://leetcode.com/problems/course-schedule/)
 - [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
-- [Graph valid tree](https://leetcode.com/problems/graph-valid-tree/)
+- Graph Valid Tree
 - [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 - [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
 - [Word Ladder](https://leetcode.com/problems/word-ladder/)
 - [Word Search](https://leetcode.com/problems/word-search/)
+- [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [01 Matrix](https://leetcode.com/problems/01-matrix/)
+- [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
+- Minimum Knight Moves
+- [Clone Graph](https://leetcode.com/problems/clone-graph/)
+- Number of Connected Components in an Undirected Graph
+- [Build a Matrix With Conditions](https://leetcode.com/problems/build-a-matrix-with-conditions/)
 
 ## Recursion/Backtracking
 
