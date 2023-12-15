@@ -52,33 +52,31 @@ class Solution:
         return root.next
 
     def merge_k_lists_dac(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
-        if not lists:
-            return None
-        if len(lists) == 1:
-            return lists[0]
-        mid = len(lists) // 2
-        l_merged, r_merged = self.merge_k_lists_dac(
-            lists[:mid]
-        ), self.merge_k_lists_dac(lists[mid:])
-        return self.merge(l_merged, r_merged)
+        def merge(lists, start, stop):
+            if start > stop:
+                return None
+            if start == stop:
+                return lists[start]
+            mid = (start + stop) // 2
+            left = merge(lists, start, mid)
+            right = merge(lists, mid + 1, stop)
+            dummy = ListNode()
+            curr = dummy
+            while left is not None and right is not None:
+                if left.val < right.val:
+                    curr.next = left
+                    left = left.next
+                else:
+                    curr.next = right
+                    right = right.next
+                curr = curr.next
+            if left is not None:
+                curr.next = left
+            if right is not None:
+                curr.next = right
+            return dummy.next
 
-    def merge(self, l, r):
-        root = ListNode()
-        tail = root
-        while l is not None and r is not None:
-            if l.val < r.val:
-                tail.next = l
-                l = l.next
-            else:
-                tail.next = r
-                r = r.next
-            tail = tail.next
-        # either l or r has to be None, for the above while loop to exit
-        if l is not None:
-            tail.next = l
-        if r is not None:
-            tail.next = r
-        return root.next
+        return merge(lists, 0, len(lists) - 1)
 
 
 @pytest.mark.parametrize(

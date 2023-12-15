@@ -46,6 +46,8 @@
 - [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)
 - Basic Calculator III
 - [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+- [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/)
+- Sort Features by Popularity
 
 ### Sliding Window/Two Pointer
 
@@ -69,6 +71,11 @@
 - [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 - [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 - [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+- [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
+- [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
+- [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
+- [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)
 
 ## Hash Table
 
@@ -177,6 +184,7 @@
 - [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 - [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
 - Strobogrammatic Number II
+- [Word Search II](https://leetcode.com/problems/word-search-ii/)
 
 ## Dynamic Programming
 
@@ -190,6 +198,7 @@
 - [Jump Game II](https://leetcode.com/problems/jump-game-ii/)
 - [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
 - [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
+- [Word Break](https://leetcode.com/problems/word-break/)
 
 ## Design and Implementation
 
@@ -202,6 +211,7 @@
 - [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
 - [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 - Design Hit Counter
+- [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 
 ## Greedy
 
