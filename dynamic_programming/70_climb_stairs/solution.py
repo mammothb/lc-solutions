@@ -30,3 +30,12 @@ class Solution:
         for i in range(2, n):
             steps[i % 3] = steps[(i - 1) % 3] + steps[(i - 2) % 3]
         return steps[(n - 1) % 3]
+
+    def climbStairs_overwrite(self, n: int) -> int:
+        steps = [1, 2]
+        if n < 3:
+            return steps[n - 1]
+        for i in range(2, n):
+            steps[i % 2] += steps[(i - 1) % 2]
+
+        return steps[(n - 1) % 2]

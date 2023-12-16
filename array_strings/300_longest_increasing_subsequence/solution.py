@@ -8,10 +8,12 @@ class Solution:
     def length_of_lis(self, nums: List[int]) -> int:
         n = len(nums)
         result = [1] * n
-        for i in range(1, n):
-            for j in range(i):
-                if nums[j] < nums[i]:
-                    result[i] = max(result[i], result[j] + 1)
+        for stop in range(1, n):
+            for i in range(stop):
+                if nums[i] < nums[stop]:
+                    # update result at nums[stop] if nums[i] is smaller and its
+                    # subsequence is longer
+                    result[stop] = max(result[stop], result[i] + 1)
         return max(result)
 
     def length_of_lis_brute_force(self, nums: List[int]) -> int:
@@ -36,6 +38,7 @@ class Solution:
             if num > result[-1]:
                 result.append(num)
             else:
+                # Start a new subsequence by overwriting the current one
                 l = 0
                 r = len(result) - 1
                 idx = 0
@@ -48,6 +51,8 @@ class Solution:
                         l = mid + 1
                     else:
                         r = mid - 1
+                        # Overwrite the smallest element that's larger than
+                        # nums[i]
                         idx = mid
                 result[idx] = nums[i]
         return len(result)

@@ -52,6 +52,42 @@ class Solution:
         result.insert(insert_idx, [start, stop])
         return result
 
+    def insert_two_loop(
+        self, intervals: List[List[int]], newInterval: List[int]
+    ) -> List[List[int]]:
+        def is_overlap(interval1, interval2):
+            return interval1[1] >= interval2[0]
+
+        result = []
+        n = len(intervals)
+        i = 0
+        while i < n:
+            # Break if we reached an element that might overlaps
+            if intervals[i][1] >= newInterval[0]:
+                break
+            result.append(intervals[i])
+            i += 1
+
+        result.append(newInterval)
+        if i == n:
+            return result
+
+        # Merge if current element overlaps. Do this separately
+        # because we need to adjust both start and stop
+        if is_overlap(result[-1], intervals[i]):
+            result[-1][0] = min(result[-1][0], intervals[i][0])
+            result[-1][1] = max(result[-1][1], intervals[i][1])
+            i += 1
+
+        # Process the rest of the intervals
+        while i < n:
+            if is_overlap(result[-1], intervals[i]):
+                result[-1][1] = max(result[-1][1], intervals[i][1])
+            else:
+                result.append(intervals[i])
+            i += 1
+        return result
+
 
 @pytest.mark.parametrize(
     "case,expected",

@@ -63,6 +63,8 @@
 - [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 - [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 - [Insert Interval](https://leetcode.com/problems/insert-interval/)
+- Meeting Rooms
+- Meeting Rooms II
 
 ### Heap/Priority Queues
 
@@ -199,6 +201,11 @@
 - [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)
 - [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
 - [Word Break](https://leetcode.com/problems/word-break/)
+- [Coin Change](https://leetcode.com/problems/coin-change/)
+- [House Robber](https://leetcode.com/problems/house-robber/)
+- [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+- [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+- [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
 
 ## Design and Implementation
 
