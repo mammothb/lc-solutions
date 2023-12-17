@@ -28,3 +28,11 @@ class Solution:
                 to_reach = idx
             idx -= 1
         return to_reach == 0
+
+    def canJump_3(self, nums: List[int]) -> bool:
+        n = len(nums)
+        stop = n - 1
+        for i in range(n - 2, -1, -1):
+            if i + nums[i] >= stop:
+                stop = i
+        return stop == 0

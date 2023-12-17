@@ -16,3 +16,16 @@ class Solution:
                     count = max(count, r - l + 1)
             seen[c] = r
         return count
+
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        seen = set()
+        result = 0
+        idx = 0
+        for c in s:
+            if c in seen:
+                while seen and c in seen:
+                    seen.remove(s[idx])
+                    idx += 1
+            seen.add(c)
+            result = max(result, len(seen))
+        return result

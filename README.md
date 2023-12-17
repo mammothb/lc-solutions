@@ -48,6 +48,9 @@
 - [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 - [Sender With Largest Word Count](https://leetcode.com/problems/sender-with-largest-word-count/)
 - Sort Features by Popularity
+- [Majority Element](https://leetcode.com/problems/majority-element/)
+- [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
+- [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 
 ### Sliding Window/Two Pointer
 
@@ -84,6 +87,7 @@
 - [Ransom Note](https://leetcode.com/problems/ransom-note/)
 - [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 - [All O\`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)
+- [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 
 ## Sorting and Searching
 
@@ -93,6 +97,7 @@
 - [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 - [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+- [First Bad Version](https://leetcode.com/problems/first-bad-version/)
 
 ## Matrix
 
@@ -116,6 +121,7 @@
 - [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [Reorder List](https://leetcode.com/problems/reorder-list/)
+- [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
 ## Trees
 
@@ -152,6 +158,7 @@
 - [Same Tree](https://leetcode.com/problems/same-tree/)
 - [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 - [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
+- [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 
 ## Graphs
 
@@ -206,6 +213,7 @@
 - [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 - [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 - [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
+- [House Robber II](https://leetcode.com/problems/house-robber-ii/)
 
 ## Design and Implementation
 
@@ -219,6 +227,7 @@
 - [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
 - Design Hit Counter
 - [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
+- [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)
 
 ## Greedy
 
@@ -228,3 +237,23 @@
 - Bulb Switcher IV
 - [Candy](https://leetcode.com/problems/candy/)
 - [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)
+
+## Binary
+
+- [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
+- [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
+- [Counting Bits](https://leetcode.com/problems/counting-bits/)
+- [Missing Number](https://leetcode.com/problems/missing-number/)
+- [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+- [Single Number](https://leetcode.com/problems/single-number/)
+- [Add Binary](https://leetcode.com/problems/add-binary/)
+
+## Math
+
+- [Pow(x, n)](https://leetcode.com/problems/powx-n/)
+- [Sqrt(x)](https://leetcode.com/problems/sqrtx/)
+
+## Geometry
+
+- [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)
+- [Rectangle Area](https://leetcode.com/problems/rectangle-area/)
