@@ -98,6 +98,7 @@
 - [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 - [First Bad Version](https://leetcode.com/problems/first-bad-version/)
+- [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 
 ## Matrix
 
@@ -252,6 +253,7 @@
 
 - [Pow(x, n)](https://leetcode.com/problems/powx-n/)
 - [Sqrt(x)](https://leetcode.com/problems/sqrtx/)
+- [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 
 ## Geometry
 
