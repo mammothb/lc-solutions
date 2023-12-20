@@ -51,6 +51,7 @@
 - [Majority Element](https://leetcode.com/problems/majority-element/)
 - [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
 - [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+- [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
 
 ### Sliding Window/Two Pointer
 
@@ -180,6 +181,7 @@
 - [Clone Graph](https://leetcode.com/problems/clone-graph/)
 - Number of Connected Components in an Undirected Graph
 - [Build a Matrix With Conditions](https://leetcode.com/problems/build-a-matrix-with-conditions/)
+- [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
 
 ## Recursion/Backtracking
 
@@ -229,6 +231,7 @@
 - Design Hit Counter
 - [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 - [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)
+- [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
 
 ## Greedy
 

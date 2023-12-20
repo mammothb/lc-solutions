@@ -24,6 +24,19 @@ class Solution:
                 result += 1
         return max(len(tasks), result)
 
+    def leastInterval(self, tasks: List[str], n: int) -> int:
+        counter = collections.Counter(tasks)
+        num_max = 0
+        max_count = 0
+        for task in counter:
+            if counter[task] > max_count:
+                max_count = counter[task]
+                num_max = 1
+            elif counter[task] == max_count:
+                num_max += 1
+        result = (max_count - 1) * (n + 1) + 1 + num_max - 1
+        return max(result, len(tasks))
+
     def least_interval_priority_queue(self, tasks: List[str], n: int) -> int:
         if n == 0:
             return len(tasks)

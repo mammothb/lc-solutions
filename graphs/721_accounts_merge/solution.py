@@ -63,3 +63,38 @@ class Solution:
             for owner_email, emails in trees.items()
         ]
         return result
+
+    def accountsMerge_union_find_2(self, accounts: List[List[str]]) -> List[List[str]]:
+        def find(parent, i):
+            if parent[i] != i:
+                parent[i] = find(parent, parent[i])
+            return parent[i]
+
+        def union(parent, l, r):
+            l_rep = find(parent, l)
+            r_rep = find(parent, r)
+            if l_rep == r_rep:
+                return
+
+            parent[r_rep] = l_rep
+
+        # Stores email->account ID
+        # Stores account IDs in parent
+        email_to_id = {}
+        parent = {}
+        for i, account in enumerate(accounts):
+            parent[i] = i
+            for email in account[1:]:
+                email_to_id[email] = i
+
+        for i, account in enumerate(accounts):
+            for email in account[1:]:
+                union(parent, i, email_to_id[email])
+
+        trees = collections.defaultdict(list)
+        for email in email_to_id:
+            trees[find(parent, email_to_id[email])].append(email)
+        result = []
+        for acc_id in trees:
+            result.append([accounts[acc_id][0]] + sorted(trees[acc_id]))
+        return result

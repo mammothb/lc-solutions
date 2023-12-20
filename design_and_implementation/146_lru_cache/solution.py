@@ -2,8 +2,20 @@ class Node:
     def __init__(self, key=-1, val=-1):
         self.key = key
         self.val = val
-        self.next = None
         self.prev = None
+        self.next = None
+
+    def insert_after(self, other):
+        other.next = self.next
+        self.next.prev = other
+        self.next = other
+        other.prev = self
+
+    def remove(self):
+        self.prev.next = self.next
+        self.next.prev = self.prev
+        self.prev = None
+        self.next = None
 
 
 def connect(l_node, r_node):
@@ -53,6 +65,44 @@ class LRUCache:
             connect(self.head, node)
 
 
+class LRUCache2:
+    def __init__(self, capacity: int):
+        self.capacity = capacity
+        self.size = 0
+        self.lookup = {}
+        self.head = Node()
+        self.tail = Node()
+
+        self.head.next = self.tail
+        self.tail.prev = self.head
+
+    def get(self, key: int) -> int:
+        if not key in self.lookup:
+            return -1
+        self.lookup[key].remove()
+        self.head.insert_after(self.lookup[key])
+        return self.lookup[key].val
+
+    def put(self, key: int, value: int) -> None:
+        if key in self.lookup:
+            self.lookup[key].val = value
+            self.lookup[key].remove()
+            self.head.insert_after(self.lookup[key])
+            return
+        if self.size == self.capacity:
+            del_key = self.tail.prev.key
+            node = self.lookup.pop(del_key)
+            node.remove()
+        else:
+            self.size += 1
+        self.lookup[key] = Node(key, value)
+        self.head.insert_after(self.lookup[key])
+
+
+# Your LRUCache object will be instantiated and called as such:
+# obj = LRUCache(capacity)
+# param_1 = obj.get(key)
+# obj.put(key,value)
 # Your LRUCache object will be instantiated and called as such:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
