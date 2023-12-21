@@ -50,3 +50,26 @@ class Solution:
             even = even.next
         odd.next = even_start
         return head
+
+    def oddEvenList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if head is None or head.next is None:
+            return head
+
+        # Track even list
+        dummy = ListNode()
+        even = dummy
+        curr = head
+        # Store last odd node to join later
+        prev = None
+        while curr is not None:
+            # join even
+            even.next = curr.next
+            # join odd to next odd if available
+            if curr.next is not None:
+                curr.next = curr.next.next
+            prev = curr
+            curr = curr.next
+            even = even.next
+        # concat odd with even
+        prev.next = dummy.next
+        return head

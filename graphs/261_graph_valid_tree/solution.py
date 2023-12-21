@@ -109,6 +109,38 @@ class Solution:
                 return False
         return True
 
+    def valid_tree_topo_sort_bfs(self, n: int, edges: List[List[int]]) -> bool:
+        if len(edges) != n - 1:
+            return False
+        # Edge case, when tree is a single node
+        if n == 1 and not edges:
+            return True
+        graph = collections.defaultdict(list)
+        degree = collections.defaultdict(int)
+        for v1, v2 in edges:
+            graph[v1].append(v2)
+            graph[v2].append(v1)
+            degree[v1] += 1
+            degree[v2] += 1
+        queue = collections.deque()
+        for i in range(n):
+            # There are disconnected nodes
+            if degree[i] == 0:
+                return False
+            # Leaf nodes
+            if degree[i] == 1:
+                queue.append(i)
+        while queue:
+            vertex = queue.popleft()
+            n -= 1
+            for neighbor in graph[vertex]:
+                if neighbor != vertex:
+                    degree[neighbor] -= 1
+                    if degree[neighbor] == 1:
+                        queue.append(neighbor)
+        # Check that we can reach all nodes
+        return n == 0
+
 
 @pytest.mark.parametrize(
     "case,expected",

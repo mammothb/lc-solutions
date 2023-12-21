@@ -14,19 +14,18 @@ class WordDictionary:
         n = len(word)
         stack = [(self.keys, 0)]
         while stack:
-            keys, idx = stack.pop()
-            if idx == n:
+            keys, i = stack.pop()
+            if i == n:
                 if keys.get("$", False):
                     return True
-            elif word[idx] == ".":
-                for k in keys:
-                    if k != "$":
-                        stack.append((keys[k], idx + 1))
                 continue
+            if word[i] == ".":
+                for key in keys:
+                    if key != "$":
+                        stack.append((keys[key], i + 1))
             else:
-                if word[idx] in keys:
-                    stack.append((keys[word[idx]], idx + 1))
-
+                if word[i] in keys:
+                    stack.append((keys[word[i]], i + 1))
         return False
 
     def search_recursive(self, word: str) -> bool:
@@ -42,6 +41,18 @@ class WordDictionary:
             return False
 
         return dfs(word, len(word), 0, self.keys)
+
+    def search_recursive_2(self, word: str) -> bool:
+        def dfs(keys, word, n, i):
+            if i == n:
+                return keys.get("$", False)
+            if word[i] == ".":
+                return any(dfs(keys[key], word, n, i + 1) for key in keys if key != "$")
+            if word[i] not in keys:
+                return False
+            return dfs(keys[word[i]], word, n, i + 1)
+
+        return dfs(self.keys, word, len(word), 0)
 
 
 # Your WordDictionary object will be instantiated and called as such:

@@ -52,6 +52,7 @@
 - [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
 - [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 - [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
+- [Rotate Array](https://leetcode.com/problems/rotate-array/)
 
 ### Sliding Window/Two Pointer
 
@@ -61,6 +62,7 @@
 - [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
 - [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
+- [Next Permutation](https://leetcode.com/problems/next-permutation/)
 
 ### Intervals
 
@@ -100,6 +102,8 @@
 - [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 - [First Bad Version](https://leetcode.com/problems/first-bad-version/)
 - [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
+- Shortest Path to Get Food
+- [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 
 ## Matrix
 
@@ -124,6 +128,7 @@
 - [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [Reorder List](https://leetcode.com/problems/reorder-list/)
 - [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+- [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 
 ## Trees
 
@@ -241,6 +246,7 @@
 - Bulb Switcher IV
 - [Candy](https://leetcode.com/problems/candy/)
 - [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)
+- [Gas Station](https://leetcode.com/problems/gas-station/)
 
 ## Binary
 
