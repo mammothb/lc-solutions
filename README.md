@@ -84,6 +84,7 @@
 - [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
 - [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
 - [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)
+- [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)
 
 ## Hash Table
 
@@ -91,6 +92,8 @@
 - [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 - [All O\`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)
 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+- [Contiguous Array](https://leetcode.com/problems/contiguous-array/)
+- [Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)
 
 ## Sorting and Searching
 
@@ -104,6 +107,8 @@
 - [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 - Shortest Path to Get Food
 - [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+- [Sort List](https://leetcode.com/problems/sort-list/)
+- [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/)
 
 ## Matrix
 
@@ -129,6 +134,7 @@
 - [Reorder List](https://leetcode.com/problems/reorder-list/)
 - [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 - [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+- [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
 ## Trees
 
@@ -166,6 +172,9 @@
 - [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 - [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 - [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
+- [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)
+- Inorder Successor in BST
+- Inorder Successor in BST II
 
 ## Graphs
 
@@ -247,6 +256,7 @@
 - [Candy](https://leetcode.com/problems/candy/)
 - [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)
 - [Gas Station](https://leetcode.com/problems/gas-station/)
+- [Largest Number](https://leetcode.com/problems/largest-number/)
 
 ## Binary
 
@@ -263,6 +273,7 @@
 - [Pow(x, n)](https://leetcode.com/problems/powx-n/)
 - [Sqrt(x)](https://leetcode.com/problems/sqrtx/)
 - [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+- [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 
 ## Geometry
 
