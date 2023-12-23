@@ -75,3 +75,33 @@ class Solution:
         head = tail.next
         tail.next = None
         return head
+
+    def rotate_right_optimize_2(
+        self, head: Optional[ListNode], k: int
+    ) -> Optional[ListNode]:
+        # Edge case
+        if k == 0 or head is None:
+            return head
+
+        n = 0
+        last = None
+        curr = head
+        while curr is not None:
+            last = curr
+            curr = curr.next
+            n += 1
+
+        k %= n
+        if k == 0:
+            return head
+
+        last.next = head
+        # Stop at the last node of the rotated node
+        while n - k > 0:
+            last = last.next
+            k += 1
+
+        head = last.next
+        last.next = None
+
+        return result

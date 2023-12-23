@@ -75,3 +75,33 @@ class Solution:
         if level:
             result.append(level)
         return result
+
+    def zigzagLevelOrder_two_stack(self, root: Optional[TreeNode]) -> List[List[int]]:
+        if root is None:
+            return []
+
+        stack1 = [root]
+        stack2 = []
+        result = []
+        level = 0
+        while stack1 or stack2:
+            result.append([])
+            if level % 2 == 0:
+                while stack1:
+                    node = stack1.pop()
+                    result[-1].append(node.val)
+                    if node.left is not None:
+                        stack2.append(node.left)
+                    if node.right is not None:
+                        stack2.append(node.right)
+            else:
+                while stack2:
+                    node = stack2.pop()
+                    result[-1].append(node.val)
+                    if node.right is not None:
+                        stack1.append(node.right)
+                    if node.left is not None:
+                        stack1.append(node.left)
+            level += 1
+
+        return result

@@ -63,6 +63,7 @@
 - [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
 - [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 - [Next Permutation](https://leetcode.com/problems/next-permutation/)
+- [3Sum Closest](https://leetcode.com/problems/3sum-closest/)
 
 ### Intervals
 
@@ -175,6 +176,9 @@
 - [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)
 - Inorder Successor in BST
 - Inorder Successor in BST II
+- [Path Sum](https://leetcode.com/problems/path-sum/)
+- [Path Sum III](https://leetcode.com/problems/path-sum-iii/)
+- Path Sum IV
 
 ## Graphs
 
@@ -231,6 +235,7 @@
 - [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 - [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
 - [House Robber II](https://leetcode.com/problems/house-robber-ii/)
+- [Maximal Square](https://leetcode.com/problems/maximal-square/)
 
 ## Design and Implementation
 

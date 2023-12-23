@@ -46,3 +46,40 @@ class Solution:
             curr.next.next = next
             curr = curr.next.next
         return head
+
+    def reorderList_2(self, head: Optional[ListNode]) -> None:
+        """
+        Do not return anything, modify head in-place instead.
+        """
+        if head is None or head.next is None:
+            return head
+
+        slow = head
+        fast = head
+        while fast is not None and fast.next is not None:
+            slow = slow.next
+            fast = fast.next.next
+        reverse = slow.next
+        slow.next = None
+
+        prev = None
+        while reverse is not None:
+            next = reverse.next
+            reverse.next = prev
+            prev = reverse
+            reverse = next
+
+        dummy = ListNode()
+        curr = dummy
+        while head is not None and prev is not None:
+            curr.next = head
+            head = head.next
+            curr = curr.next
+
+            curr.next = prev
+            prev = prev.next
+            curr = curr.next
+
+        if head is not None:
+            curr.next = head
+        return dummy.next
