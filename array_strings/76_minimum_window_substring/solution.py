@@ -32,6 +32,25 @@ class Solution:
             r += 1
         return "" if window_size > n_s else s[min_l : min_l + window_size]
 
+    def minWindow(self, s: str, t: str) -> str:
+        counter = collections.Counter(t)
+        start = 0
+        min_length = float("inf")
+        result = ""
+        for i, c in enumerate(s):
+            if c in counter:
+                counter[c] -= 1
+            while start < i and (s[start] not in counter or counter[s[start]] < 0):
+                if s[start] in counter:
+                    counter[s[start]] += 1
+                start += 1
+            if all(val <= 0 for val in counter.values()):
+                if i - start + 1 < min_length:
+                    min_length = i - start + 1
+                    result = s[start : i + 1]
+
+        return result
+
 
 @pytest.mark.parametrize(
     "case,expected",

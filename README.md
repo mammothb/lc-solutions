@@ -86,6 +86,7 @@
 - [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)
 - [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)
 - [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)
+- [Maximum Number of Events That Can Be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
 
 ## Hash Table
 
@@ -230,12 +231,15 @@
 - [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
 - [Word Break](https://leetcode.com/problems/word-break/)
 - [Coin Change](https://leetcode.com/problems/coin-change/)
+- [Coin Change II](https://leetcode.com/problems/coin-change-ii/)
 - [House Robber](https://leetcode.com/problems/house-robber/)
 - [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 - [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 - [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
 - [House Robber II](https://leetcode.com/problems/house-robber-ii/)
 - [Maximal Square](https://leetcode.com/problems/maximal-square/)
+- [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
+- [Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/)
 
 ## Design and Implementation
 

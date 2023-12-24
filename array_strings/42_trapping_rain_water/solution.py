@@ -115,6 +115,19 @@ class Solution:
                 stack.append(i)
         return result
 
+    def trap_stack_3(self, heights: List[int]) -> int:
+        n = len(heights)
+        stack = [0]
+        result = 0
+        for i in range(1, n):
+            while stack and heights[stack[-1]] < heights[i]:
+                height = heights[stack.pop()]
+                if stack:
+                    min_height = min(heights[stack[-1]], heights[i])
+                    result += max(0, min_height - height) * (i - stack[-1] - 1)
+            stack.append(i)
+        return result
+
 
 @pytest.mark.parametrize(
     "case,expected",
