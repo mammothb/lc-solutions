@@ -201,6 +201,7 @@
 - Number of Connected Components in an Undirected Graph
 - [Build a Matrix With Conditions](https://leetcode.com/problems/build-a-matrix-with-conditions/)
 - [Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/)
+- [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
 
 ## Recursion/Backtracking
 

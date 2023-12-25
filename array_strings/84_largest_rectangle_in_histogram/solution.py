@@ -32,3 +32,26 @@ class Solution:
                 area = n * heights[idx]
             result = max(result, area)
         return result
+
+    def largestRectangleArea_2(self, heights: List[int]) -> int:
+        n = len(heights)
+        stack = []
+        result = 0
+        for i in range(n):
+            while stack and heights[stack[-1]] > heights[i]:
+                idx = stack.pop()
+                if stack:
+                    area = heights[idx] * (i - 1 - stack[-1])
+                else:
+                    area = heights[idx] * i
+                result = max(result, area)
+            stack.append(i)
+        while stack:
+            idx = stack.pop()
+            if stack:
+                area = heights[idx] * (n - 1 - stack[-1])
+            else:
+                area = heights[idx] * n
+            result = max(result, area)
+
+        return result
