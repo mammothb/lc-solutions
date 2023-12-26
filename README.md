@@ -64,6 +64,7 @@
 - [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 - [Next Permutation](https://leetcode.com/problems/next-permutation/)
 - [3Sum Closest](https://leetcode.com/problems/3sum-closest/)
+- [4Sum](https://leetcode.com/problems/4sum/)
 
 ### Intervals
 
@@ -72,6 +73,7 @@
 - [Insert Interval](https://leetcode.com/problems/insert-interval/)
 - Meeting Rooms
 - Meeting Rooms II
+- Employee Free Time
 
 ### Heap/Priority Queues
 
@@ -93,9 +95,11 @@
 - [Ransom Note](https://leetcode.com/problems/ransom-note/)
 - [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 - [All O\`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)
+- [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 - [Contiguous Array](https://leetcode.com/problems/contiguous-array/)
 - [Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)
+- [Bus Routes](https://leetcode.com/problems/bus-routes/)
 
 ## Sorting and Searching
 
@@ -241,6 +245,7 @@
 - [Maximal Square](https://leetcode.com/problems/maximal-square/)
 - [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
 - [Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/)
+- [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)
 
 ## Design and Implementation
 
@@ -256,6 +261,7 @@
 - [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 - [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)
 - [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
+- Design In-Memory File System
 
 ## Greedy
 
