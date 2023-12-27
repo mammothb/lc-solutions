@@ -101,3 +101,56 @@ class Solution:
                 self.box[box_idx(i, j)] |= 1 << int(board[i][j])
 
         solve(board, 0, 0)
+
+    def solveSudoku_3(self, board: List[List[str]]) -> None:
+        """Bitmasks, alternative ways to test and toggle."""
+
+        def box_idx(i, j):
+            return (i // SUB_DIM) * SUB_DIM + j // SUB_DIM
+
+        def is_valid(row, col, box, i, j, num):
+            return (
+                ((row[i] >> num) & 1)
+                | ((col[j] >> num) & 1)
+                | ((box[box_idx(i, j)] >> num) & 1)
+            ) == 0
+
+        def solve(board, row, col, box, i, j):
+            if i == DIM - 1 and j == DIM:
+                return True
+
+            if j == DIM:
+                i += 1
+                j = 0
+
+            if board[i][j] != ".":
+                return solve(board, row, col, box, i, j + 1)
+
+            for num in NUMS:
+                inum = int(num)
+                if is_valid(row, col, box, i, j, inum):
+                    board[i][j] = num
+                    row[i] |= 1 << inum
+                    col[j] |= 1 << inum
+                    box[box_idx(i, j)] |= 1 << inum
+                    if solve(board, row, col, box, i, j + 1):
+                        return True
+                    board[i][j] = "."
+                    row[i] ^= 1 << inum
+                    col[j] ^= 1 << inum
+                    box[box_idx(i, j)] ^= 1 << inum
+            return False
+
+        row = [0] * DIM
+        col = [0] * DIM
+        box = [0] * DIM
+        for i in range(DIM):
+            for j in range(DIM):
+                if board[i][j] == ".":
+                    continue
+                num = int(board[i][j])
+                row[i] |= 1 << num
+                col[j] |= 1 << num
+                box[box_idx(i, j)] |= 1 << num
+
+        solve(board, row, col, box, 0, 0)

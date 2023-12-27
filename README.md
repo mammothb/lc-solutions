@@ -53,6 +53,7 @@
 - [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
 - [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
 - [Rotate Array](https://leetcode.com/problems/rotate-array/)
+- [Text Justification](https://leetcode.com/problems/text-justification/)
 
 ### Sliding Window/Two Pointer
 
@@ -65,6 +66,7 @@
 - [Next Permutation](https://leetcode.com/problems/next-permutation/)
 - [3Sum Closest](https://leetcode.com/problems/3sum-closest/)
 - [4Sum](https://leetcode.com/problems/4sum/)
+- [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
 
 ### Intervals
 
@@ -100,6 +102,7 @@
 - [Contiguous Array](https://leetcode.com/problems/contiguous-array/)
 - [Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)
 - [Bus Routes](https://leetcode.com/problems/bus-routes/)
+- [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)
 
 ## Sorting and Searching
 
@@ -141,6 +144,7 @@
 - [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 - [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 - [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+- [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
 ## Trees
 
@@ -221,6 +225,7 @@
 - [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
 - Strobogrammatic Number II
 - [Word Search II](https://leetcode.com/problems/word-search-ii/)
+- [N-Queens](https://leetcode.com/problems/n-queens/)
 
 ## Dynamic Programming
 
@@ -273,6 +278,7 @@
 - [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/)
 - [Gas Station](https://leetcode.com/problems/gas-station/)
 - [Largest Number](https://leetcode.com/problems/largest-number/)
+- [Smallest Range Covering Elements from K Lists](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/)
 
 ## Binary
 
