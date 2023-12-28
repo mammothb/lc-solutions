@@ -54,6 +54,7 @@
 - [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
 - [Rotate Array](https://leetcode.com/problems/rotate-array/)
 - [Text Justification](https://leetcode.com/problems/text-justification/)
+- [Simplify Path](https://leetcode.com/problems/simplify-path/)
 
 ### Sliding Window/Two Pointer
 
@@ -67,6 +68,7 @@
 - [3Sum Closest](https://leetcode.com/problems/3sum-closest/)
 - [4Sum](https://leetcode.com/problems/4sum/)
 - [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+- [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
 ### Intervals
 
@@ -125,6 +127,7 @@
 - [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 - [Rotate Image](https://leetcode.com/problems/rotate-image/)
 - [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+- [Game of Life](https://leetcode.com/problems/game-of-life/)
 
 ## Linked Lists/Deques
 
