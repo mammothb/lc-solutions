@@ -30,6 +30,22 @@ class Solution:
             curr += weight
         return days
 
+    def ship_within_days_2(self, weights: List[int], days: int) -> int:
+        if days == 1:
+            return sum(weights)
+        if days >= len(weights):
+            return max(weights)
+        min_capacity = max(weights)
+        max_capacity = sum(weights)
+        while min_capacity <= max_capacity:
+            mid_capacity = min_capacity + (max_capacity - min_capacity) // 2
+            req_days = self.find_shipment_days(weights, mid_capacity)
+            if req_days > days:
+                min_capacity = mid_capacity + 1
+            else:
+                max_capacity = mid_capacity - 1
+        return min_capacity
+
 
 @pytest.mark.parametrize(
     "case,expected",

@@ -177,6 +177,7 @@
 - [Rotate Image](https://leetcode.com/problems/rotate-image/)
 - [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
 - [Game of Life](https://leetcode.com/problems/game-of-life/)
+- [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
 
 ## Linked Lists/Deques
 
@@ -201,6 +202,8 @@
 - [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
 - [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 - [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
+- [Partition List](https://leetcode.com/problems/partition-list/)
+- [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
 
 ### Hard
 
@@ -256,6 +259,8 @@
 - Path Sum IV
 - [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 - [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
+- [Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/)
+- [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 
 ### Hard
 
@@ -286,6 +291,7 @@
 - Number of Connected Components in an Undirected Graph
 - [Evaluate Division](https://leetcode.com/problems/evaluate-division/)
 - [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)
+- [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)
 
 ### Hard
 
@@ -314,6 +320,7 @@
 - Strobogrammatic Number II
 - [Word Search II](https://leetcode.com/problems/word-search-ii/)
 - [N-Queens](https://leetcode.com/problems/n-queens/)
+- [N-Queens II](https://leetcode.com/problems/n-queens-ii/)
 
 ## Dynamic Programming
 
@@ -340,6 +347,9 @@
 - [House Robber II](https://leetcode.com/problems/house-robber-ii/)
 - [Maximal Square](https://leetcode.com/problems/maximal-square/)
 - [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)
+- [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)
+- [Triangle](https://leetcode.com/problems/triangle/)
+- [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
 
 ### Hard
 
@@ -348,6 +358,7 @@
 - [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/)
 - [Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/)
 - [Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
+- [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
 
 ## Design and Implementation
 
@@ -415,6 +426,10 @@
 - [Sqrt(x)](https://leetcode.com/problems/sqrtx/)
 - [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 - [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+
+### Hard
+
+- [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)
 
 ## Geometry
 

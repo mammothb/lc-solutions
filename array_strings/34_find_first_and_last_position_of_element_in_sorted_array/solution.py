@@ -76,6 +76,36 @@ class Solution:
         result[1] = search_last(nums, n, target)
         return result
 
+    def searchRange_2bs(self, nums: List[int], target: int) -> List[int]:
+        if not nums:
+            return [-1, -1]
+        if target < nums[0] or target > nums[-1]:
+            return [-1, -1]
+
+        start = -1
+        l = 0
+        r = len(nums) - 1
+        while l <= r:
+            mid = l + (r - l) // 2
+            if nums[mid] >= target:
+                if nums[mid] == target:
+                    start = mid
+                r = mid - 1
+            else:
+                l = mid + 1
+        # Search for last index, set left bound as previous left index
+        stop = -1
+        r = len(nums) - 1
+        while l <= r:
+            mid = l + (r - l) // 2
+            if nums[mid] == target:
+                stop = mid
+                l = mid + 1
+            else:
+                r = mid - 1
+
+        return [start, stop]
+
 
 @pytest.fixture
 def solution():
