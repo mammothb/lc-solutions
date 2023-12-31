@@ -27,6 +27,26 @@ class BSTIterator:
         return self.root is not None or bool(self.stack)
 
 
+class BSTIterator2:
+    def __init__(self, root: Optional[TreeNode]):
+        self.stack = []
+        self._fill(root)
+
+    def next(self) -> int:
+        curr = self.stack.pop()
+        val = curr.val
+        self._fill(curr.right)
+        return val
+
+    def hasNext(self) -> bool:
+        return bool(self.stack)
+
+    def _fill(self, root):
+        while root is not None:
+            self.stack.append(root)
+            root = root.left
+
+
 # Your BSTIterator object will be instantiated and called as such:
 # obj = BSTIterator(root)
 # param_1 = obj.next()

@@ -17,35 +17,34 @@ class ListNode:
 
 class Solution:
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
-        def reverse(parent, node, k):
-            curr = parent
-            next_head = head
-            i = 0
-            while next_head is not None and i < k:
-                curr.next = next_head
-                curr = curr.next
-                next_head = next_head.next
-                i += 1
+        dummy = ListNode()
+        tail = dummy
+        dummy.next = head
+        left = head
+        right = head
 
-            if i < k:
-                return False, None, None
+        while True:
+            count = 0
+            while right and count < k:
+                right = right.next
+                count += 1
 
-            prev = None
-            curr = head
-            while k > 0:
+            if count < k:
+                return dummy.next
+
+            prev = right
+            curr = left
+            # Standard reversing
+            while count > 0:
                 next = curr.next
                 curr.next = prev
                 prev = curr
                 curr = next
-                k -= 1
-            parent.next = prev
-            return True, head, next_head
-
-        dummy = ListNode()
-        res, parent, head = reverse(dummy, head, k)
-        while res:
-            res, parent, head = reverse(parent, head, k)
-        return dummy.next
+                count -= 1
+            # Move pointers to the next segment
+            tail.next = prev
+            tail = left
+            left = right
 
     def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
         curr = head

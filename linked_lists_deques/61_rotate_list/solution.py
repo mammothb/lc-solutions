@@ -105,3 +105,32 @@ class Solution:
         last.next = None
 
         return result
+
+    def rotateRight_3(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
+        if head is None:
+            return None
+
+        n = 0
+        curr = head
+        # Tail to append rotated part
+        tail = None
+        while curr is not None:
+            tail = curr
+            curr = curr.next
+            n += 1
+
+        k %= n
+        if k == 0:
+            return head
+
+        fast = head
+        # Last node of rotated part
+        prev = None
+        while n - k > 0:
+            prev = fast
+            fast = fast.next
+            k += 1
+
+        prev.next = None
+        tail.next = head
+        return fast

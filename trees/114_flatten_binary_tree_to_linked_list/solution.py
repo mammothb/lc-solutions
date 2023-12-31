@@ -47,3 +47,16 @@ class Solution:
             self.prev = node
 
         flatten_tree(root)
+
+    def flatten_constant_space(self, root: Optional[TreeNode]) -> None:
+        while root is not None:
+            if root.left is not None and root.right is not None:
+                curr = root.left
+                while curr.right is not None:
+                    curr = curr.right
+                curr.right = root.right
+
+            if root.left is not None:
+                root.right = root.left
+            root.left = None
+            root = root.right

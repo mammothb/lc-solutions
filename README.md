@@ -140,6 +140,7 @@
 - [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)
 - [Contiguous Array](https://leetcode.com/problems/contiguous-array/)
 - [Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)
+- [Find Longest Special Substring That Occurs Thrice II](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii/)
 
 ### Hard
 

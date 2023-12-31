@@ -16,27 +16,25 @@ class Solution:
         return solve(s1, 0, s2, 0, s3, 0)
 
     def isInterleave_dp(self, s1: str, s2: str, s3: str) -> bool:
-        m = len(s1)
-        n = len(s2)
+        n1 = len(s1)
+        n2 = len(s2)
 
-        if m + n != len(s3):
+        if n1 + n2 != len(s3):
             return False
-        dp = [[False] * (n + 1) for _ in range(m + 1)]
+
+        dp = [[False] * (n2 + 1) for _ in range(n1 + 1)]
         dp[0][0] = True
-        for i in range(1, m + 1):
+        for i in range(1, n1 + 1):
             dp[i][0] = dp[i - 1][0] and s1[i - 1] == s3[i - 1]
-        for j in range(1, n + 1):
+        for j in range(1, n2 + 1):
             dp[0][j] = dp[0][j - 1] and s2[j - 1] == s3[j - 1]
-        for i in range(1, m + 1):
-            for j in range(1, n + 1):
-                match_1 = False
-                match_2 = False
-                if s1[i - 1] == s3[i - 1 + j]:
-                    match_1 = dp[i - 1][j]
-                if s2[j - 1] == s3[i - 1 + j]:
-                    match_2 = dp[i][j - 1]
-                dp[i][j] = match_1 or match_2
-        return dp[m][n]
+
+        for i in range(1, n1 + 1):
+            for j in range(1, n2 + 1):
+                dp[i][j] = (dp[i - 1][j] and s1[i - 1] == s3[i + j - 1]) or (
+                    dp[i][j - 1] and s2[j - 1] == s3[i + j - 1]
+                )
+        return dp[-1][-1]
 
     def isInterleave_dp_space_optimized(self, s1: str, s2: str, s3: str) -> bool:
         m = len(s1)
