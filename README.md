@@ -126,6 +126,7 @@
 #### Hard
 
 - [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
+- [IPO](https://leetcode.com/problems/ipo/)
 
 ## Hash Table
 
@@ -147,6 +148,7 @@
 - [All O\`one Data Structure](https://leetcode.com/problems/all-oone-data-structure/)
 - [Bus Routes](https://leetcode.com/problems/bus-routes/)
 - [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)
+- [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
 
 ## Sorting and Searching
 
@@ -427,6 +429,7 @@
 - [Sqrt(x)](https://leetcode.com/problems/sqrtx/)
 - [Palindrome Number](https://leetcode.com/problems/palindrome-number/)
 - [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+- [Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 
 ### Hard
 

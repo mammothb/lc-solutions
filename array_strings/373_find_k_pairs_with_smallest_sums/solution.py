@@ -11,17 +11,19 @@ class Solution:
         result = []
         heap: List[Tuple[int, int]] = []
         len_2 = len(nums2)
-        for n in nums1:
-            heapq.heappush(heap, (n + nums2[0], 0))
+        for num in nums1:
+            heapq.heappush(heap, (num + nums2[0], 0))
         while k > 0 and heap:
-            s, pos = heapq.heappop(heap)
-            n2 = nums2[pos]
-            n1 = s - n2
-            result.append([n1, n2])
+            pair_sum, i_2 = heapq.heappop(heap)
+            num_2 = nums2[i_2]
+            num_1 = pair_sum - num_2
+            result.append([num_1, num_2])
 
-            if pos < len_2 - 1:
-                pos += 1
-                heapq.heappush(heap, (n1 + nums2[pos], pos))
+            # Add the next pair of the currnent num_1
+            # Adding pairs from both lists in a "zipper" like fashion
+            if i_2 < len_2 - 1:
+                i_2 += 1
+                heapq.heappush(heap, (num_1 + nums2[i_2], i_2))
             k -= 1
         return result
 
