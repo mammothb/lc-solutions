@@ -49,6 +49,8 @@
 - Encode and Decode Strings
 - Sort Features by Popularity
 - [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)
+- [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
+- [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
 
 ### Hard
 
@@ -207,6 +209,7 @@
 - [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
 - [Partition List](https://leetcode.com/problems/partition-list/)
 - [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
+- [Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
 
 ### Hard
 
@@ -264,6 +267,7 @@
 - [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
 - [Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/)
 - [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+- [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
 
 ### Hard
 
@@ -314,6 +318,7 @@
 - [Combinations](https://leetcode.com/problems/combinations/)
 - [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 - [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/)
+- [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
 
 ### Hard
 
