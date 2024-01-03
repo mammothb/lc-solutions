@@ -51,6 +51,7 @@
 - [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)
 - [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 - [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+- [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
 
 ### Hard
 
@@ -183,6 +184,7 @@
 - [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
 - [Game of Life](https://leetcode.com/problems/game-of-life/)
 - [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
+- [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)
 
 ## Linked Lists/Deques
 
@@ -268,6 +270,7 @@
 - [Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths/)
 - [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 - [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
+- [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)
 
 ### Hard
 
@@ -299,6 +302,7 @@
 - [Evaluate Division](https://leetcode.com/problems/evaluate-division/)
 - [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)
 - [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)
+- [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
 
 ### Hard
 
@@ -387,6 +391,7 @@
 - [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 - [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)
 - [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
+- [Online Stock Span](https://leetcode.com/problems/online-stock-span/)
 
 ### Hard
 
