@@ -1,3 +1,4 @@
+import collections
 from typing import Optional
 
 
@@ -57,3 +58,25 @@ class Solution:
         solve(root, targetSum, 0, res, cache)
 
         return res[0]
+
+    def pathSum(self, root: Optional[TreeNode], targetSum: int) -> int:
+        self.result = 0
+        cache = collections.defaultdict(int)
+        cache[0] = 1
+        self.solve(root, targetSum, 0, cache)
+
+        return self.result
+
+    def solve(self, root, targetSum, curr, cache):
+        if root is None:
+            return
+
+        curr += root.val
+        self.result += cache[curr - targetSum]
+
+        cache[curr] += 1
+        if root.left is not None:
+            self.solve(root.left, targetSum, curr, cache)
+        if root.right is not None:
+            self.solve(root.right, targetSum, curr, cache)
+        cache[curr] -= 1

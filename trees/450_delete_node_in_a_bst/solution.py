@@ -42,3 +42,41 @@ class Solution:
             parent.left = curr.right
         del curr
         return root
+
+    def deleteNode2(self, root: Optional[TreeNode], key: int) -> Optional[TreeNode]:
+        curr = root
+        prev = None
+        while curr is not None and curr.val != key:
+            prev = curr
+            if curr.val > key:
+                curr = curr.left
+            else:
+                curr = curr.right
+
+        if prev is None:
+            return self._delete(curr)
+
+        if prev.left == curr:
+            prev.left = self._delete(curr)
+        else:
+            prev.right = self._delete(curr)
+        return root
+
+    def _delete(self, root):
+        if root is None:
+            return None
+        if root.left is None:
+            return root.right
+        if root.right is None:
+            return root.left
+
+        next = root.right
+        prev = None
+        while next.left is not None:
+            prev = next
+            next = next.left
+        next.left = root.left
+        if root.right != next:
+            prev.left = next.right
+            next.right = root.right
+        return next

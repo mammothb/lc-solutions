@@ -73,3 +73,32 @@ class Solution:
         # concat odd with even
         prev.next = dummy.next
         return head
+
+    def oddEvenList_2(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if head is None or head.next is None:
+            return head
+        dummy = ListNode()
+        even_curr = dummy
+        prev = None
+        curr = head
+        while curr is not None and curr.next is not None:
+            # Attach even node
+            even_curr.next = curr.next
+            # Advance even pointer
+            even_curr = even_curr.next
+            # Attach odd node
+            curr.next = curr.next.next
+            # Track last good odd node
+            prev = curr
+            # Advance odd pointer
+            curr = curr.next
+
+        # Terminate even tail
+        even_curr.next = None
+
+        # The while loop terminated because there's not enought even nodes
+        if curr is not None:
+            curr.next = dummy.next
+        else:
+            prev.next = dummy.next
+        return head

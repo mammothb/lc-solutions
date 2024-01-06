@@ -30,7 +30,7 @@ class Solution:
             return right
         return None
 
-    def lowest_common_ancestor_iterateive(
+    def lowest_common_ancestor_iterative(
         self, root: "TreeNode", p: "TreeNode", q: "TreeNode"
     ) -> "TreeNode":
         parent = {root: None}

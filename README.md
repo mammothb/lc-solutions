@@ -169,6 +169,7 @@
 - [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - Shortest Path to Get Food
 - [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+- [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 
 ### Hard
 
@@ -271,6 +272,7 @@
 - [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 - [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
 - [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)
+- [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)
 
 ### Hard
 
@@ -303,6 +305,8 @@
 - [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)
 - [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)
 - [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
+- [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
+- [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 
 ### Hard
 
@@ -323,6 +327,7 @@
 - [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 - [Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/)
 - [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)
+- [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 
 ### Hard
 
@@ -362,6 +367,7 @@
 - [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)
 - [Triangle](https://leetcode.com/problems/triangle/)
 - [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
+- [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)
 
 ### Hard
 
