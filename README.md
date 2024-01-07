@@ -84,6 +84,7 @@
 - [4Sum](https://leetcode.com/problems/4sum/)
 - [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
 - [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+- [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)
 
 #### Hard
 
@@ -170,6 +171,7 @@
 - Shortest Path to Get Food
 - [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 - [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
+- [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)
 
 ### Hard
 
@@ -273,6 +275,7 @@
 - [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)
 - [Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)
 - [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)
+- [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/)
 
 ### Hard
 
@@ -368,6 +371,7 @@
 - [Triangle](https://leetcode.com/problems/triangle/)
 - [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
 - [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)
+- [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)
 
 ### Hard
 
@@ -377,6 +381,7 @@
 - [Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/)
 - [Minimum Difficulty of a Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)
 - [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)
+- [Arithmetic Slices II - Subsequence](https://leetcode.com/problems/arithmetic-slices-ii-subsequence/)
 
 ## Design and Implementation
 
@@ -398,6 +403,7 @@
 - [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)
 - [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
 - [Online Stock Span](https://leetcode.com/problems/online-stock-span/)
+- [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)
 
 ### Hard
 
@@ -416,6 +422,7 @@
 - Bulb Switcher IV
 - [Largest Number](https://leetcode.com/problems/largest-number/)
 - [Gas Station](https://leetcode.com/problems/gas-station/)
+- [Minimum Moves to Capture The Queen](https://leetcode.com/problems/minimum-moves-to-capture-the-queen/)
 
 ### Hard
 
