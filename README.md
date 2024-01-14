@@ -52,6 +52,8 @@
 - [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)
 - [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
 - [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
+- [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)
+- [Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)
 
 ### Hard
 
@@ -69,6 +71,7 @@
 - Basic Calculator III
 - [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 - [Text Justification](https://leetcode.com/problems/text-justification/)
+- [Find Beautiful Indices in the Given Array II](https://leetcode.com/problems/find-beautiful-indices-in-the-given-array-ii/)
 
 ### Sliding Window/Two Pointer
 
@@ -188,6 +191,9 @@
 - [Game of Life](https://leetcode.com/problems/game-of-life/)
 - [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)
 - [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)
+- [Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)
+- [Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)
+- [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)
 
 ## Linked Lists/Deques
 
@@ -310,12 +316,14 @@
 - [Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
 - [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
 - [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
+- [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
 
 ### Hard
 
 - [Word Ladder](https://leetcode.com/problems/word-ladder/)
 - [Build a Matrix With Conditions](https://leetcode.com/problems/build-a-matrix-with-conditions/)
 - [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
+- [Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
 
 ## Recursion/Backtracking
 

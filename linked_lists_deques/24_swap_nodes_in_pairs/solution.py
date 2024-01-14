@@ -32,3 +32,25 @@ class Solution:
         head.next = self.swapPairs_recursive(head.next.next)
         temp.next = head
         return temp
+
+    def swapPairs2(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if head is None or head.next is None:
+            return head
+
+        dummy = ListNode()
+        curr = dummy
+        while head is not None and head.next is not None:
+            next = head.next.next
+            curr.next = head.next
+            # Break cycle
+            head.next = None
+
+            curr.next.next = head
+            curr = curr.next.next
+            head = next
+
+        # Handle odd numbered list
+        if head is not None:
+            curr.next = head
+            curr.next.next = None
+        return dummy.next

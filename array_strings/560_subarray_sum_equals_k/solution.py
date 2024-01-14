@@ -37,6 +37,22 @@ class Solution:
                     result += 1
         return result
 
+    def subarraySum(self, nums: List[int], k: int) -> int:
+        result = 0
+        # Initialize the seen dict so that the first subarray that's exactly k
+        # will be
+        seen = {0: 1}
+        curr = 0
+        for num in nums:
+            curr += num
+            if curr - k in seen:
+                result += seen[curr - k]
+            if curr in seen:
+                seen[curr] += 1
+            else:
+                seen[curr] = 1
+        return result
+
 
 @pytest.fixture
 def solution():

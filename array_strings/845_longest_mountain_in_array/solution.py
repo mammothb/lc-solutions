@@ -27,6 +27,23 @@ class Solution:
                 result = max(result, up + down + 1)
         return result if result >= 3 else 0
 
+    def longestMountain(self, arr: List[int]) -> int:
+        n = len(arr)
+        max_length = 0
+
+        left = 0
+        while left < n - 2:
+            while left < n - 1 and arr[left] >= arr[left + 1]:
+                left += 1
+            right = left + 1
+            while right < n - 1 and arr[right] < arr[right + 1]:
+                right += 1
+            while right < n - 1 and arr[right] > arr[right + 1]:
+                right += 1
+                max_length = max(max_length, right - left + 1)
+            left = right
+        return max_length
+
 
 @pytest.mark.parametrize(
     "case,expected",
