@@ -141,6 +141,7 @@
 
 - [Ransom Note](https://leetcode.com/problems/ransom-note/)
 - [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+- Shortest Word Distance
 
 ### Medium
 
@@ -149,6 +150,8 @@
 - [Contiguous Array](https://leetcode.com/problems/contiguous-array/)
 - [Find the Longest Substring Containing Vowels in Even Counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)
 - [Find Longest Special Substring That Occurs Thrice II](https://leetcode.com/problems/find-longest-special-substring-that-occurs-thrice-ii/)
+- Shortest Word Distance II
+- Shortest Word Distance III
 
 ### Hard
 
@@ -175,6 +178,7 @@
 - [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 - [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 - [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)
+- [Find Right Interval](https://leetcode.com/problems/find-right-interval/)
 
 ### Hard
 
@@ -194,6 +198,13 @@
 - [Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/)
 - [Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)
 - [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)
+- The Maze
+- The Maze II
+
+### Hard
+
+- [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)
+- [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)
 
 ## Linked Lists/Deques
 
@@ -203,7 +214,7 @@
 - [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 - [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
-- [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+-p [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 - [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
@@ -317,6 +328,8 @@
 - [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)
 - [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 - [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
+- [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)
+- [Network Delay Time](https://leetcode.com/problems/network-delay-time/)
 
 ### Hard
 
@@ -324,6 +337,7 @@
 - [Build a Matrix With Conditions](https://leetcode.com/problems/build-a-matrix-with-conditions/)
 - [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
 - [Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
+- [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)
 
 ## Recursion/Backtracking
 
@@ -349,6 +363,7 @@
 - [Word Search II](https://leetcode.com/problems/word-search-ii/)
 - [N-Queens](https://leetcode.com/problems/n-queens/)
 - [N-Queens II](https://leetcode.com/problems/n-queens-ii/)
+- [Frog Jump](https://leetcode.com/problems/frog-jump/)
 
 ## Dynamic Programming
 
@@ -380,6 +395,7 @@
 - [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
 - [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)
 - [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)
+- [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)
 
 ### Hard
 

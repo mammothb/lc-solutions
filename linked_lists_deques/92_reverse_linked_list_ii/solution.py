@@ -39,3 +39,27 @@ class Solution:
             orig_stop.next.next = tmp
             i += 1
         return dummy.next
+
+    def reverseBetween(
+        self, head: Optional[ListNode], left: int, right: int
+    ) -> Optional[ListNode]:
+        if left == right:
+            return head
+
+        i = 1
+        dummy = ListNode()
+        dummy.next = head
+        prev = dummy
+        while i < left:
+            prev = prev.next
+            i += 1
+
+        curr = prev.next
+        while i < right:
+            next = curr.next
+            curr.next = next.next
+            next.next = prev.next
+            prev.next = next
+            i += 1
+
+        return dummy.next
