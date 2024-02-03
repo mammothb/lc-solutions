@@ -54,6 +54,7 @@
 - [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)
 - [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)
 - [Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)
+- Delete Char
 
 ### Hard
 
@@ -179,6 +180,10 @@
 - [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)
 - [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)
 - [Find Right Interval](https://leetcode.com/problems/find-right-interval/)
+- Majsoul on
+- Food Set
+- [Nth Digit](https://leetcode.com/problems/nth-digit/)
+- [Minimum Operations to Make All Array Elements Equal](https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/)
 
 ### Hard
 
@@ -214,7 +219,7 @@
 - [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 - [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
--p [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+- [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 - [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
@@ -330,6 +335,7 @@
 - [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
 - [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)
 - [Network Delay Time](https://leetcode.com/problems/network-delay-time/)
+- Walls and Gates
 
 ### Hard
 
@@ -396,6 +402,7 @@
 - [Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)
 - [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)
 - [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)
+- [Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)
 
 ### Hard
 
@@ -428,6 +435,7 @@
 - [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
 - [Online Stock Span](https://leetcode.com/problems/online-stock-span/)
 - [Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)
+- [Design a Stack With Increment Operation](https://leetcode.com/problems/design-a-stack-with-increment-operation/)
 
 ### Hard
 
@@ -447,6 +455,8 @@
 - [Largest Number](https://leetcode.com/problems/largest-number/)
 - [Gas Station](https://leetcode.com/problems/gas-station/)
 - [Minimum Moves to Capture The Queen](https://leetcode.com/problems/minimum-moves-to-capture-the-queen/)
+- [Maximum Swap](https://leetcode.com/problems/maximum-swap/)
+- [The Number of Weak Characters in the Game](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/)
 
 ### Hard
 
